@@ -1,6 +1,6 @@
 
   <header>
-    <h1>Morlyf Muchines</h1>
+    <h1>Morelyf Muchines</h1>
     <nav>
       <a href="#menu">Menu</a>
       <a href="#contact">Contact</a>
@@ -8,7 +8,7 @@
   </header>
 
   <section class="hero">
-    <h2>Welcome to Morlyf Muchines!</h2>
+    <h2>Welcome to Morelyf Muchines!</h2>
     <p>Authentic flavors, served fresh from our food truck.<br>Now taking online orders for pickup or delivery.</p>
     <div class="buttons">
       <a class="doordash" href="#">Order on DoorDash</a>
@@ -41,14 +41,14 @@
 
   <section class="about">
     <h2>About Us</h2>
-    <p>Morlyf Muchines is a mobile kitchen bringing bold Caribbean-American fusion to the streets of Deerfield Beach, Florida.<br>
+    <p>Morelyf Muchines is a mobile kitchen bringing bold Caribbean-American fusion to the streets of Deerfield Beach, Florida.<br>
     Our main location before going mobile is 855 W Sample Rd, Deerfield Beach, FL 33064.<br>
     We believe in fresh flavors, fast service, and feeding the community.</p>
     <img src="https://via.placeholder.com/200x150?text=Our+Truck" alt="Food Truck" />
   </section>
 
   <footer id="contact">
-    <p>📧 Email: morlyfmuchines@gmail.com | 📞 (555) 123-4567</p>
+    <p>📧 Email: morelyfmuchines@gmail.com | 📞 (555) 123-4567</p>
     <p>📍 Based in: Deerfield Beach, FL</p>
     <p>📍 Main Location: 855 W Sample Rd, Deerfield Beach, FL 33064</p>
   </footer>
