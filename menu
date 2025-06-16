@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morelyf Munchies - Menu</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 20px auto; }
+    h1 { text-align: center; }
+    .menu-item { display: flex; align-items: center; margin: 20px 0; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+    .menu-item img { width: 120px; height: 90px; object-fit: cover; border-radius: 8px; margin-right: 20px; }
+    .menu-info { flex-grow: 1; }
+    .menu-name { font-weight: bold; font-size: 1.2em; }
+    .menu-price { font-size: 1.1em; color: #333; }
+  </style>
+</head>
+<body>
+  <h1>Morelyf Munchies Menu</h1>
+
+  <div class="menu-item">
+    <img src="images/burger.jpg" alt="Classic Burger" />
+    <div class="menu-info">
+      <div class="menu-name">Classic Burger</div>
+      <div class="menu-price">$8.99</div>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/vegan-wrap.jpg" alt="Vegan Wrap" />
+    <div class="menu-info">
+      <div class="menu-name">Vegan Wrap</div>
+      <div class="menu-price">$7.49</div>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/fries.jpg" alt="French Fries" />
+    <div class="menu-info">
+      <div class="menu-name">French Fries</div>
+      <div class="menu-price">$3.99</div>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/lemonade.jpg" alt="Fresh Lemonade" />
+    <div class="menu-info">
+      <div class="menu-name">Fresh Lemonade</div>
+      <div class="menu-price">$2.50</div>
+    </div>
+  </div>
+
+</body>
+</html>
