@@ -127,3 +127,199 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morelyf Munchies - Menu</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 20px auto; }
+    h1 { text-align: center; }
+    .menu-item { display: flex; align-items: center; margin: 20px 0; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+    .menu-item img { width: 120px; height: 90px; object-fit: cover; border-radius: 8px; margin-right: 20px; }
+    .menu-info { flex-grow: 1; }
+    .menu-name { font-weight: bold; font-size: 1.2em; }
+    .menu-price { font-size: 1.1em; color: #333; }
+  </style>
+</head>
+<body>
+  <h1>Morelyf Munchies Menu</h1>
+
+  <div class="menu-item">
+    <img src="images/burger.jpg" alt="Classic Burger" />
+    <div class="menu-info">
+      <div class="menu-name">Classic Burger</div>
+      <div class="menu-price">$8.99</div>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/vegan-wrap.jpg" alt="Vegan Wrap" />
+    <div class="menu-info">
+      <div class="menu-name">Vegan Wrap</div>
+      <div class="menu-price">$7.49</div>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/fries.jpg" alt="French Fries" />
+    <div class="menu-info">
+      <div class="menu-name">French Fries</div>
+      <div class="menu-price">$3.99</div>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/lemonade.jpg" alt="Fresh Lemonade" />
+    <div class="menu-info">
+      <div class="menu-name">Fresh Lemonade</div>
+      <div class="menu-price">$2.50</div>
+    </div>
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Morelyf Munchies</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; }
+    h1 { text-align: center; }
+    form { display: flex; flex-direction: column; gap: 15px; }
+    label { font-weight: bold; }
+    input, textarea { padding: 8px; font-size: 1em; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #28a745; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-size: 1.1em; }
+    button:hover { background: #218838; }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <form action="submit_contact.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subscribe & Get Discounts | Morelyf Munchies</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 500px; margin: 40px auto; }
+    h1 { text-align: center; }
+    form { display: flex; flex-direction: column; gap: 15px; }
+    label { font-weight: bold; }
+    input { padding: 8px; font-size: 1em; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #007bff; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-size: 1.1em; }
+    button:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <h1>Subscribe for Discounts & Updates</h1>
+  <form action="subscribe.php" method="POST">
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+    <label>
+      <input type="checkbox" name="discounts" value="yes" />
+      Yes, I want to receive discount offers!
+    </label>
+
+    <button type="submit">Subscribe</button>
+  </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Place Your Order or Join Mailing List | Morelyf Munchies</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; }
+    h1 { text-align: center; }
+    form { display: flex; flex-direction: column; gap: 15px; }
+    label { font-weight: bold; }
+    input, select, textarea { padding: 8px; font-size: 1em; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #dc3545; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-size: 1.1em; }
+    button:hover { background: #c82333; }
+  </style>
+</head>
+<body>
+  <h1>Order Food or Join Mailing List</h1>
+  <form action="submit_order.php" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone">Phone Number (optional):</label>
+    <input type="tel" id="phone" name="phone" />
+
+    <label for="orderType">I want to:</label>
+    <select id="orderType" name="orderType" required>
+      <option value="">Select an option</option>
+      <option value="order">Place a Food Order</option>
+      <option value="mailing">Join the Mailing List</option>
+    </select>
+
+    <label for="details">Order Details or Message:</label>
+    <textarea id="details" name="details" rows="5" placeholder="Enter your order or message here..." required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morelyf Munchies Payment</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; }
+    h1 { text-align: center; }
+    form { display: flex; flex-direction: column; gap: 15px; }
+    label { font-weight: bold; }
+    input, textarea { padding: 8px; font-size: 1em; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #6772e5; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-size: 1.1em; }
+    button:hover { background: #5469d4; }
+  </style>
+</head>
+<body>
+  <h1>Place Your Order & Pay</h1>
+  <form id="paymentForm">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required />
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required />
+    <label for="orderDetails">Order Details:</label>
+    <textarea id="orderDetails" name="orderDetails" rows="4" placeholder="List your food order..." required></textarea>
+    <label for="amount">Total Amount ($):</label>
+    <input type="number" id="amount" name="amount" min="1" step="0.01" required />
+    <button type="submit">Proceed to Payment</button>
+  </form>
+  <script>
+    document.getElementById('paymentForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      // Replace with your Stripe Payment Link URL
+      window.location.href = 'https://buy.stripe.com/test_XXXXXXXXXXXXXXXX';
+    });
+  </script>
+</body>
+</html>
